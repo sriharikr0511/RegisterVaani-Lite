@@ -1,0 +1,22 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node / Vite
+node_modules/
+dist/
+
+# Local data and model caches
+backend/data/*
+!backend/data/.gitkeep
+.cache/
+
+# Secrets / editor
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
